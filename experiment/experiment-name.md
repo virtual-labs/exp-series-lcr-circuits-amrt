@@ -1,1 +1,1 @@
-## Experiment name
+## Series LCR Circuits
