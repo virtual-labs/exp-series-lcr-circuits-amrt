@@ -1,38 +1,38 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+   {
+      "question": "10 V is applied to two 5 ohm resistors in series. The resulting current is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2 A",
+        "b": "1.25 A",
+        "c": "1 A",
+        "d": "0.5 A"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Too high; would require only 5Ω total resistance.",
+        "b": "Incorrect; recheck total resistance.",
+        "c": "Correct. Total resistance = 5Ω + 5Ω = 10Ω, I = V/R = 10/10 = 1 A.",
+        "d": "Too low; underestimates current."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "10 V is applied to two 5 ohm resistors connected in parallel. The resulting current is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "4 A",
+        "b": "2.5 A",
+        "c": "1.25 A",
+        "d": "1 A"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. Parallel resistance = (5×5)/(5+5) = 2.5Ω. I = 10/2.5 = 4 A.",
+        "b": "Too low; miscalculated total resistance.",
+        "c": "Incorrect; check parallel formula.",
+        "d": "Too low; this is for higher resistance."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
