@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+   {
+      "question": "6V is applied to a 2 ohm resistor in series with two 2 ohm resistors connected in parallel. The current through the first resistor is",
+      "answers": {
+        "a": "3 A",
+        "b": "2 A",
+        "c": "1 A",
+        "d": "0.5 A"
+      },
+      "explanations": {
+        "a": "Too high; overestimates current.",
+        "b": "Correct. Parallel of 2Ω & 2Ω = 1Ω. Total = 2Ω + 1Ω = 3Ω. I = 6/3 = 2 A.",
+        "c": "Too low; misapplied Ohm’s law.",
+        "d": "Too low; current is underestimated."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "One complete set of negative and positive values of alternating quantities is called",
+      "answers": {
+        "a": "Time period",
+        "b": "Amplitude",
+        "c": "Frequency",
+        "d": "Cycle"
+      },
+      "explanations": {
+        "a": "Incorrect. Time period is the duration of one cycle, not the cycle itself.",
+        "b": "Incorrect. Amplitude is the maximum value, not a full set.",
+        "c": "Incorrect. Frequency is the number of cycles per second.",
+        "d": "Correct. One complete set is defined as a cycle."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The power factor in a LCR circuit at resonance is",
+      "answers": {
+        "a": "zero",
+        "b": "0.5",
+        "c": "0.8",
+        "d": "1"
+      },
+      "explanations": {
+        "a": "Incorrect. At resonance, power factor is maximum, not zero.",
+        "b": "Incorrect. Value too low for resonance condition.",
+        "c": "Incorrect. Resonant circuits have unity power factor.",
+        "d": "Correct. At resonance, impedance is purely resistive → PF = 1."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
